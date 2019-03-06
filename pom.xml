@@ -101,4 +101,13 @@
         <module>admin</module>
         <module>api</module>
     </modules>
+
+    <distributionManagement>
+        <snapshotRepository>
+            <id>snapshots</id>
+            <name>e6f37d2755ed-snapshots</name>
+            <url>http://83.170.112.143:80/artifactory/libs-snapshot-local</url>
+        </snapshotRepository>
+    </distributionManagement>
+
 </project>
